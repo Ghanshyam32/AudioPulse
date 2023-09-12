@@ -75,10 +75,10 @@ dependencies {
 
     // Dagger - Hilt
     implementation ("com.google.dagger:hilt-android:2.48")
-    kapt ("com.google.dagger:hilt-android-compiler:2.38.1")
-//    implementation ("androidx.hilt:hilt-lifecycle-viewmodel:ktx:2.6.2")
-//    implementation ("androidx.hilt:hilt-lifecycle-runtime:ktx:2.6.2")
-    kapt ("androidx.hilt:hilt-compiler:1.0.0")
+    kapt ("com.google.dagger:hilt-android-compiler:2.48")
+//    implementation ("androidx.hilt:hilt-lifecycle-viewmodel:2.48")
+//    implementation ("androidx.hilt:hilt-lifecycle-runtime:2.48")
+    kapt ("androidx.hilt:hilt-compiler:2.48")
 
     // Timber
     implementation ("com.jakewharton.timber:timber:5.0.0")
@@ -93,4 +93,5 @@ dependencies {
     api ("com.google.android.exoplayer:exoplayer-core:2.19.1")
     api ("com.google.android.exoplayer:extension-mediasession:2.19.1")
     api ("com.google.android.exoplayer:exoplayer-ui:2.19.1")
+    implementation ("androidx.media3:media3-session:1.1.1")
 }
